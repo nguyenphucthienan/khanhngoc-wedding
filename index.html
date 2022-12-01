@@ -416,21 +416,14 @@
 	<script src="js/main.js"></script>
 
 	<script>
-    var d = new Date(1672419600000);
+    var d = new Date(1672444800000);
 
     // default example
     simplyCountdown('.simply-countdown-one', {
         year: d.getFullYear(),
         month: d.getMonth() + 1,
-        day: d.getDate()
-    });
-
-    //jQuery example
-    $('#simply-countdown-losange').simplyCountdown({
-        year: d.getFullYear(),
-        month: d.getMonth() + 1,
         day: d.getDate(),
-        enableUtc: false
+		enableUtc: false
     });
 </script>
 
