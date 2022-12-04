@@ -686,7 +686,7 @@ h1, h2, h3, h4, h5, h6, figure {
 
 
 // GALLERY
-#fh5co-gallery-list {
+.fh5co-gallery-list {
 	@include flexwrap;
 	@include flex;
 	position: relative;
